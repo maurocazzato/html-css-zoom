@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+#box-top{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    max-width: 100vh;
+    z-index: 1;
+
+}
+
+#icon-box{
+    max-width: 100%;
+    display: flex;
+    justify-content: right;
+    
+
+}
+.icon-top{
+    background-color: gray;
+    border-radius: 10%;
+    padding: 8px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* main */
+
+#container{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+#box-utenti{
+    margin: 100px;
+    flex-wrap: wrap;
+    display: flex;
+}
+.utente{
+    align-items: flex-end;
+    position: relative;
+    display: flex;
+    float: left;
+    margin: 5px;
+
+}
+
+.nome{
+    background-color: rgba(128, 128, 128, 0.608);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    height: 20px;
+    position: absolute;
+    padding: 5px;
+    text-align: center;
+
+}
+
+/* footer */
+#box-end{
+    max-width: 100%;
+    background-color:rgb(36, 35, 35);
+    display: flex;
+    align-items: center;
+    height: 100px;
+    justify-content: space-between;
+}
+#icon-end{
+    display: flex;
+    max-width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+#icon-end2{
+    display: flex;
+    max-width: 100%;
+    height: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(53, 52, 52);
+    justify-content: center;
+    align-items: center ;
+}
+
+.end{
+    margin: 10px;
+}
+
+.icon{
+    font-size: 20px;
+}
+
+.iconred{
+    font-size: 20px;
+    color: red;
+}
+
+#icon-green{
+    color: greenyellow;
+}
